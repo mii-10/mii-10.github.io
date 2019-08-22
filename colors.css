@@ -1,0 +1,50 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --mbg: #fff;
+    --mtext: #000;
+    --nbg:skyblue;
+    --ntext: #000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mbg: #1e1e1e;
+    --mtext: #fff;
+    --nbg:#757575;
+    --ntext: #38c6d6;
+  }
+}
+
+/* 画面が縦長であれば */
+@media (orientation: portrait) { 
+    #navi-pc{
+        display:None;
+    }
+    #navi-phone{
+        display:inline;
+        position:fixed;
+    }
+}
+
+/* 画面が横長であれば */
+@media (orientation: landscape) { 
+    #navi-pc{
+        display:inline;
+        position:fixed;
+        font-size:30;
+    }
+    #navi-phone{
+        display:None;
+    }
+}
+
+body {
+  background-color: var(--mbg);
+  color: var(--mtext);
+}
+
+#navi-pc,#navi-phone{
+    background-color: var(--nbg);
+    color: var(--ntext);    
+}
