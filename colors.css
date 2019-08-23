@@ -22,11 +22,14 @@
     display:None;
   }
   #navi-phone{
-    display:inline;
-    position:fixed;
-    background-color: var(--nbg);
     color: var(--ntext);
-     
+    background: var(--nbg);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    font-size: 0;
+    opacity: 0.9;
+    z-index: 2;
   }
   #creating{
     padding-top: 0px;
@@ -34,15 +37,15 @@
 
   #navi-phone li{
     display: inline-block;
-    width: 33.33333%;
+    width: 33%;
     font-size: 14px;
     border-right: 1px solid #fff;
   }
   
   #navi-phone li a{
-    color: #fff;
-    background: #252525;
-    width: 33.33333%;
+    color: var(--ntext);
+    background: var(--nbg);
+    width: 33%;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
