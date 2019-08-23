@@ -37,7 +37,7 @@
 
   #navi-phone li{
     display: inline-block;
-    width: 33vw;
+    width: 33.34vw;
     font-size: 14px;
     border-right: 1px solid #fff;
   }
@@ -45,7 +45,7 @@
   #navi-phone li a{
     color: var(--ntext);
     background: var(--nbg);
-    width: 33vw;
+    width: 33.34vw;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -56,11 +56,34 @@
 /* 画面が横長であれば */
 @media (orientation: landscape) { 
   #navi-pc{
-    display:inline;
-    position:fixed;
-    font-size:30;
-    background-color: var(--nbg);
     color: var(--ntext);
+    background: var(--nbg);
+    position: fixed;
+    width: 130%;
+    top: 0px;
+    font-size: 2vh;
+    opacity: 0.9;
+    z-index: 2;
+  }
+  #creating{
+    padding-top: 0px;
+  }
+
+  #navi-pc li{
+    display: inline-block;
+    width: 20w;
+    font-size: 14px;
+    border-right: 1px solid #fff;
+  }
+  
+  #navi-pc li a{
+    color: var(--ntext);
+    background: var(--nbg);
+    width: 20vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 10vh;
   }
   #navi-phone{
     display:None;
@@ -73,4 +96,8 @@
 body {
   background-color: var(--mbg);
   color: var(--mtext);
+}
+
+#contents {
+  text-align: center;
 }
