@@ -16,7 +16,7 @@
   }
 }
 
-/* 画面が縦長であれば */
+/* 画面が縦長であれば */ /*sp-thanks https://rmtmhome.com/under-fixmenu-342 */
 @media (orientation: portrait) { 
   #navi-pc{
     display:None;
@@ -25,7 +25,7 @@
     color: var(--ntext);
     background: var(--nbg);
     position: fixed;
-    width: 100%;
+    width: 130%;
     bottom: 0px;
     font-size: 0;
     opacity: 0.9;
