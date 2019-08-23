@@ -37,7 +37,7 @@
 
   #navi-phone li{
     display: inline-block;
-    width: 33%;
+    width: 33vw;
     font-size: 14px;
     border-right: 1px solid #fff;
   }
@@ -45,11 +45,11 @@
   #navi-phone li a{
     color: var(--ntext);
     background: var(--nbg);
-    width: 33%;
+    width: 33vw;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    height: 60px;
+    height: 10vw;
   }
 }
 
