@@ -18,33 +18,56 @@
 
 /* 画面が縦長であれば */
 @media (orientation: portrait) { 
-    #navi-pc{
-        display:None;
-    }
-    #navi-phone{
-        display:inline;
-        position:fixed;
-    }
+  #navi-pc{
+    display:None;
+  }
+  #navi-phone{
+    display:inline;
+    position:fixed;
+    background-color: var(--nbg);
+    color: var(--ntext);
+     
+  }
+  #creating{
+    padding-top: 0px;
+  }
+
+  #navi-phone li{
+    display: inline-block;
+    width: 33.33333%;
+    font-size: 14px;
+    border-right: 1px solid #fff;
+  }
+  
+  #navi-phone li a{
+    color: #fff;
+    background: #252525;
+    width: 33.33333%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 60px;
+  }
 }
 
 /* 画面が横長であれば */
 @media (orientation: landscape) { 
-    #navi-pc{
-        display:inline;
-        position:fixed;
-        font-size:30;
-    }
-    #navi-phone{
-        display:None;
-    }
+  #navi-pc{
+    display:inline;
+    position:fixed;
+    font-size:30;
+    background-color: var(--nbg);
+    color: var(--ntext);
+  }
+  #navi-phone{
+    display:None;
+  }
+  #creating{
+    padding-top: 52px;
+  }
 }
 
 body {
   background-color: var(--mbg);
   color: var(--mtext);
-}
-
-#navi-pc,#navi-phone{
-    background-color: var(--nbg);
-    color: var(--ntext);    
 }
