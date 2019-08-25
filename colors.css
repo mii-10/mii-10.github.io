@@ -28,14 +28,14 @@
     opacity: 0.9;
     z-index: 2;
   }
-  #creating{
+  #p-title{
     padding-top: 0px;
   }
 
   #navi-phone li{
     display: inline-block;
     width: 33.34vw;
-    font-size: 14px;
+    font-size: 5vh;
     border-right: 1px solid #fff;
   }
   
@@ -46,6 +46,11 @@
     vertical-align: middle;
     text-align: center;
     height: 10vh;
+  }
+
+  #pnvi{
+    width:5vh;
+    height:5vh;
   }
 }
 
@@ -60,13 +65,13 @@
     opacity: 0.9;
     z-index: 2;
   }
-  #creating{
+  #p-title{
     padding-top: 0px;
   }
 
   #navi-pc li{
     display: inline-block;
-    width: 20w;
+    width: 20vx;
     font-size: 14px;
     border-right: 1px solid #fff;
   }
@@ -82,7 +87,7 @@
   #navi-phone{
     display:None;
   }
-  #creating{
+  #p-title{
     padding-top: 52px;
   }
 }
