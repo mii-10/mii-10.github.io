@@ -35,7 +35,7 @@
   #navi-phone li{
     display: inline-block;
     width: 33.34vw;
-    font-size: 5vh;
+    font-size: 3vh;
     border-right: 1px solid #fff;
   }
   
@@ -45,12 +45,17 @@
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    height: 10vh;
+    height: 5vh;
   }
 
   #pnvi{
     width:5vh;
     height:5vh;
+  }
+
+  #contents {
+    text-align: center;
+    font-size:2.5vh;
   }
 }
 
@@ -71,7 +76,7 @@
 
   #navi-pc li{
     display: inline-block;
-    width: 20vx;
+    width: 20vh;
     font-size: 14px;
     border-right: 1px solid #fff;
   }
@@ -90,6 +95,11 @@
   #p-title{
     padding-top: 52px;
   }
+
+  #contents {
+    text-align: center;
+    font-size: 16px;
+  }
 }
 
 *:any-link{
@@ -101,6 +111,3 @@ body {
   color: var(--mtext);
 }
 
-#contents {
-  text-align: center;
-}
