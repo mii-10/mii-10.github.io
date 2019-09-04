@@ -1,11 +1,9 @@
 body {
   background-color: black;
-  position:center;
   text-align: center;
 }
 
 #contents {
-  top:0px;
   display: block;
 }
 
