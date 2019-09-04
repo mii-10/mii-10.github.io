@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  position: static;
+}
+
+#contents {
+  position:center;
+  top:0px;
+}
+
+#d90 {
+  transform:rotateZ(90deg);
+}
+
+#d180 {
+  transform:rotateZ(180deg);
+}
+
+#d270 {
+  transform:rotateZ(270deg);
+}
+
