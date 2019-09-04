@@ -1,11 +1,12 @@
 body {
   background-color: black;
-  position: static;
+  position:center;
+  text-align: center;
 }
 
 #contents {
-  position:center;
   top:0px;
+  display: block;
 }
 
 #d90 {
