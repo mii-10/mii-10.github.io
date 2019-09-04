@@ -9,15 +9,26 @@ body {
   display: block;
 }
 
+#d0{
+  width:100px;
+  height:100px;
+}
+
 #d90 {
   transform:rotateZ(90deg);
+  width:100px;
+  height:100px;
 }
 
 #d180 {
   transform:rotateZ(180deg);
+  width:100px;
+  height:100px;
 }
 
 #d270 {
   transform:rotateZ(270deg);
+  width:100px;
+  height:100px;
 }
 
